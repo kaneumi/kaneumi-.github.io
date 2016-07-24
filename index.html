@@ -4,15 +4,62 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>自己紹介</title>
+    <meta title="description" content="金海基成です">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Top</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="logo">
+        <img src="./img/imgres.jpg" alt="好きなバスケットボール選手です">
+        <h1>金海 基成</h1>
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <h2>About</h2>
+        <div class="row">
+          <h3>自己紹介</h3>
+          <div class="col-sm-12">
+            <p>金海 基成（プログラミングの勉強中です)</p>
+            <p>愛知県名古屋市出身。ITと全く違う分野で仕事をしております。。</p>
+            <p>趣味はバスケットボール・映画鑑賞です。</p>
+            <p>私のポートフォリオを見て気になった方は<a href="#">Contact</a>よりご連絡お願い致します</p>
+          </div>
+        </div>
+        <div class="row">
+        <h3>アプリ</h3>
+          <ul>
+            <li class="col-md-3 col-sm-6"><a href="#" target="_blank">アプリ１</a></li>
+            <li class="col-md-3 col-sm-6"><a href="#" target="_blank">アプリ２</a></li>
+            <li class="col-md-3 col-sm-6"><a href="#" target="_blank">アプリ３</a></li>
+            <li class="col-md-3 col-sm-6"><a href="#" target="_blank">アプリ４</a></li>
+          </ul>
+        </div>
+        <div class="row">
+          <h3>リンク</h3>
+          <div class="col-sm-12">
+            <ul>
+              <li><a href="https://github.com/kaneumi"target="_blank">Github</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <footer>
+          <p>&copy; 2016 Motonari Kaneumi</p>
+      </footer>
+    </div>
   </body>
 </html>
